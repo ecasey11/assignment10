@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 10</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/main.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+	<h1>puppies, kittens, and ponies - oh my!</h1>
+	
+	<div class="slideshow-container">
+		<div class="slide fade">
+			<img src="images/puppy1.jpg" class="pic1">
+			<img src="images/puppy2.jpg" class="pic2">
+			<img src="images/puppy3.jpg" class="pic3">
+			<img src="images/puppy4.jpg" class="pic4">
+			<img src="images/puppy5.jpg" class="pic5">
+		</div>
+
+		<div class="slide fade">
+			<img src="images/kittens1.jpg" class="pic1">
+			<img src="images/kittens2.jpg" class="pic2">
+			<img src="images/kittens3.jpg" class="pic3">
+			<img src="images/kittens4.jpg" class="pic4">
+			<img src="images/kittens5.jpg" class="pic5">
+		</div>
+
+		<div class="slide fade">
+			<img src="images/pony1.jpg" class="pic1">
+			<img src="images/pony2.jpg" class="pic2">
+			<img src="images/pony3.jpg" class="pic3">
+			<img src="images/pony4.jpg" class="pic4">
+			<img src="images/pony5.jpg" class="pic5">
+		</div>
+	</div>
+
+<!-- next and previous buttons -->
+	<a class="prev">&#10094;</a>
+	<a class="next">&#10095;</a>
+
+	<!-- dots -->
+	<div class="dots">
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+		
+	</div>
+
+	<script type="text/javascript">
+		
+		function picToCaption(){
+			document.getElementByClassName('pic1').innerHTML = "animation!";
+		}
+
+	</script>
+</body>
+</html>
